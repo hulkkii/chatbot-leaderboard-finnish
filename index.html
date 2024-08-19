@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Performance Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center mb-8">Model Performance</h1>
+        
+        <div class="flex justify-center items-center gap-4 mb-8">
+            <div>
+                <label for="battle-count-filter" class="block text-sm font-medium text-gray-700">Minimum Battle Count:</label>
+                <input type="number" id="battle-count-filter" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="0">
+            </div>
+            <div>
+                <label for="top-models" class="block text-sm font-medium text-gray-700">Top Models to Display:</label>
+                <input type="number" id="top-models" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="10">
+            </div>
+            <div class="mt-5">
+                <button onclick="updateChart()" class="px-4 py-2 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Update Chart</button>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+
+    <script>
+        let rawData = [];
+        let chart;
+
+        function createChart(filteredData) {
+            const labels = filteredData.map(item => item.index);
+            const scores = filteredData.map(item => parseFloat(item.score));
+
+            const ctx = document.getElementById('myChart').getContext('2d');
+            if (chart) {
+                chart.destroy();
+            }
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Score',
+                        data: scores,
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateChart() {
+            const minBattleCount = parseFloat(document.getElementById('battle-count-filter').value);
+            const topModels = parseInt(document.getElementById('top-models').value, 10);
+
+            let filteredData = rawData.filter(item => parseFloat(item.battle_count) >= minBattleCount);
+            filteredData.sort((a, b) => parseFloat(b.score) - parseFloat(a.score));
+            filteredData = filteredData.slice(0, topModels);
+
+            createChart(filteredData);
+        }
+
+        function fetchData() {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    rawData = data;
+                    updateChart();
+                })
+                .catch(error => console.error('Error fetching the data:', error));
+        }
+
+        window.onload = function() {
+            fetchData();
+        };
+    </script>
+</body>
+</html>

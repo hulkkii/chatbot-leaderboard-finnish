@@ -1,0 +1,490 @@
+[{
+    "index": "gemini-1.5-pro-api-0409-preview",
+    "score": "1466.6141243626485",
+    "battle_count": "105.0"
+}, {
+    "index": "gpt-4o-mini-2024-07-18",
+    "score": "1455.9797548406318",
+    "battle_count": "11.0"
+}, {
+    "index": "gpt-4-1106-preview",
+    "score": "1401.4709805948705",
+    "battle_count": "127.0"
+}, {
+    "index": "gpt-4o-2024-05-13",
+    "score": "1396.2231909661646",
+    "battle_count": "94.0"
+}, {
+    "index": "gemma-2-9b-it",
+    "score": "1394.392764498874",
+    "battle_count": "17.0"
+}, {
+    "index": "gpt-4-0125-preview",
+    "score": "1382.268442861966",
+    "battle_count": "116.0"
+}, {
+    "index": "reka-flash-21b-20240226-online",
+    "score": "1381.3550560049139",
+    "battle_count": "33.0"
+}, {
+    "index": "gemini-1.5-pro-api-0514",
+    "score": "1380.6232389309116",
+    "battle_count": "68.0"
+}, {
+    "index": "claude-3-opus-20240229",
+    "score": "1375.8276323290042",
+    "battle_count": "207.0"
+}, {
+    "index": "gpt-4-0613",
+    "score": "1365.4518849714796",
+    "battle_count": "116.0"
+}, {
+    "index": "gemini-advanced-0514",
+    "score": "1363.7313670057615",
+    "battle_count": "38.0"
+}, {
+    "index": "gpt-4-turbo-2024-04-09",
+    "score": "1354.7361854311562",
+    "battle_count": "115.0"
+}, {
+    "index": "claude-3-sonnet-20240229",
+    "score": "1344.26153631436",
+    "battle_count": "136.0"
+}, {
+    "index": "yi-large-preview",
+    "score": "1341.695929157936",
+    "battle_count": "52.0"
+}, {
+    "index": "claude-1",
+    "score": "1335.330955377125",
+    "battle_count": "22.0"
+}, {
+    "index": "gpt-4-0314",
+    "score": "1332.9195379352095",
+    "battle_count": "70.0"
+}, {
+    "index": "gemini-pro-dev-api",
+    "score": "1332.4209957277299",
+    "battle_count": "33.0"
+}, {
+    "index": "gemini-1.5-flash-api-0514",
+    "score": "1323.7210841212823",
+    "battle_count": "47.0"
+}, {
+    "index": "reka-flash-21b-20240226",
+    "score": "1317.0325645321182",
+    "battle_count": "40.0"
+}, {
+    "index": "claude-2.1",
+    "score": "1301.8353211959688",
+    "battle_count": "46.0"
+}, {
+    "index": "gpt-3.5-turbo-0613",
+    "score": "1299.3963876625212",
+    "battle_count": "56.0"
+}, {
+    "index": "reka-core-20240501",
+    "score": "1280.7915486534348",
+    "battle_count": "113.0"
+}, {
+    "index": "qwen1.5-110b-chat",
+    "score": "1280.3059974723064",
+    "battle_count": "35.0"
+}, {
+    "index": "claude-3-haiku-20240307",
+    "score": "1274.457562268091",
+    "battle_count": "129.0"
+}, {
+    "index": "qwen-max-0428",
+    "score": "1270.7711605440286",
+    "battle_count": "49.0"
+}, {
+    "index": "gpt-3.5-turbo-0125",
+    "score": "1263.562640421148",
+    "battle_count": "100.0"
+}, {
+    "index": "qwen2-72b-instruct",
+    "score": "1253.0488107939168",
+    "battle_count": "33.0"
+}, {
+    "index": "nemotron-4-340b-instruct",
+    "score": "1240.419382301211",
+    "battle_count": "13.0"
+}, {
+    "index": "qwen1.5-32b-chat",
+    "score": "1239.5222171936693",
+    "battle_count": "26.0"
+}, {
+    "index": "claude-instant-1",
+    "score": "1231.3848796683978",
+    "battle_count": "20.0"
+}, {
+    "index": "palm-2",
+    "score": "1229.19163188327",
+    "battle_count": "8.0"
+}, {
+    "index": "phi-3-mini-4k-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "21.0"
+}, {
+    "index": "phi-3-mini-4k-instruct-june-2024",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "mistral-large-2407",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "phi-3-small-8k-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "18.0"
+}, {
+    "index": "mistral-7b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "11.0"
+}, {
+    "index": "qwen1.5-7b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "pplx-70b-online",
+    "score": "1229.19163188327",
+    "battle_count": "11.0"
+}, {
+    "index": "pplx-7b-online",
+    "score": "1229.19163188327",
+    "battle_count": "11.0"
+}, {
+    "index": "mpt-7b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "qwen1.5-4b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "qwen1.5-14b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "17.0"
+}, {
+    "index": "oasst-pythia-12b",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "zephyr-7b-beta",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "codellama-70b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "3.0"
+}, {
+    "index": "yi-large",
+    "score": "1229.19163188327",
+    "battle_count": "10.0"
+}, {
+    "index": "yi-34b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "19.0"
+}, {
+    "index": "yi-1.5-34b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "37.0"
+}, {
+    "index": "wizardlm-70b",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "wizardlm-13b",
+    "score": "1229.19163188327",
+    "battle_count": "4.0"
+}, {
+    "index": "openchat-3.5",
+    "score": "1229.19163188327",
+    "battle_count": "2.0"
+}, {
+    "index": "codellama-34b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "zephyr-orpo-141b-A35b-v0.1",
+    "score": "1229.19163188327",
+    "battle_count": "8.0"
+}, {
+    "index": "RWKV-4-Raven-14B",
+    "score": "1229.19163188327",
+    "battle_count": "7.0"
+}, {
+    "index": "claude-3-5-sonnet-20240620",
+    "score": "1229.19163188327",
+    "battle_count": "38.0"
+}, {
+    "index": "vicuna-7b",
+    "score": "1229.19163188327",
+    "battle_count": "13.0"
+}, {
+    "index": "openhermes-2.5-mistral-7b",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "openchat-3.5-0106",
+    "score": "1229.19163188327",
+    "battle_count": "11.0"
+}, {
+    "index": "olmo-7b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "tulu-2-dpo-70b",
+    "score": "1229.19163188327",
+    "battle_count": "10.0"
+}, {
+    "index": "chatgpt-4o-latest",
+    "score": "1229.19163188327",
+    "battle_count": "8.0"
+}, {
+    "index": "reka-flash-20240722",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "gemma-7b-it",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "gemma-2b-it",
+    "score": "1229.19163188327",
+    "battle_count": "4.0"
+}, {
+    "index": "claude-2.0",
+    "score": "1229.19163188327",
+    "battle_count": "10.0"
+}, {
+    "index": "gemma-2-2b-it",
+    "score": "1229.19163188327",
+    "battle_count": "7.0"
+}, {
+    "index": "gemma-1.1-7b-it",
+    "score": "1229.19163188327",
+    "battle_count": "25.0"
+}, {
+    "index": "llama-3.1-8b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "12.0"
+}, {
+    "index": "alpaca-13b",
+    "score": "1229.19163188327",
+    "battle_count": "8.0"
+}, {
+    "index": "gemini-pro",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "deepseek-coder-v2",
+    "score": "1229.19163188327",
+    "battle_count": "8.0"
+}, {
+    "index": "gemini-1.5-pro-exp-0801",
+    "score": "1229.19163188327",
+    "battle_count": "18.0"
+}, {
+    "index": "deepseek-coder-v2-0724",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "deepseek-llm-67b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "dolly-v2-12b",
+    "score": "1229.19163188327",
+    "battle_count": "3.0"
+}, {
+    "index": "fastchat-t5-3b",
+    "score": "1229.19163188327",
+    "battle_count": "2.0"
+}, {
+    "index": "gemma-1.1-2b-it",
+    "score": "1229.19163188327",
+    "battle_count": "15.0"
+}, {
+    "index": "qwen-14b-chat",
+    "score": "1229.19163188327",
+    "battle_count": "4.0"
+}, {
+    "index": "llama-3.1-70b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "llama-3.1-405b-instruct",
+    "score": "1229.19163188327",
+    "battle_count": "12.0"
+}, {
+    "index": "llama-13b",
+    "score": "1229.19163188327",
+    "battle_count": "1.0"
+}, {
+    "index": "koala-13b",
+    "score": "1229.19163188327",
+    "battle_count": "13.0"
+}, {
+    "index": "guanaco-33b",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "gpt4all-13b-snoozy",
+    "score": "1229.19163188327",
+    "battle_count": "2.0"
+}, {
+    "index": "solar-10.7b-instruct-v1.0",
+    "score": "1229.19163188327",
+    "battle_count": "2.0"
+}, {
+    "index": "chatglm3-6b",
+    "score": "1229.19163188327",
+    "battle_count": "7.0"
+}, {
+    "index": "starling-lm-7b-alpha",
+    "score": "1229.19163188327",
+    "battle_count": "10.0"
+}, {
+    "index": "starling-lm-7b-beta",
+    "score": "1229.19163188327",
+    "battle_count": "17.0"
+}, {
+    "index": "stripedhyena-nous-7b",
+    "score": "1229.19163188327",
+    "battle_count": "12.0"
+}, {
+    "index": "athene-70b-0725",
+    "score": "1229.19163188327",
+    "battle_count": "6.0"
+}, {
+    "index": "bard-jan-24-gemini-pro",
+    "score": "1229.19163188327",
+    "battle_count": "18.0"
+}, {
+    "index": "chatglm-6b",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "gpt-3.5-turbo-1106",
+    "score": "1229.19163188327",
+    "battle_count": "17.0"
+}, {
+    "index": "gpt-3.5-turbo-0314",
+    "score": "1229.19163188327",
+    "battle_count": "5.0"
+}, {
+    "index": "gpt-4o-2024-08-06",
+    "score": "1229.19163188327",
+    "battle_count": "9.0"
+}, {
+    "index": "reka-flash-preview-20240611",
+    "score": "1220.3257732647971",
+    "battle_count": "24.0"
+}, {
+    "index": "llama-3-70b-instruct",
+    "score": "1219.9948536543816",
+    "battle_count": "243.0"
+}, {
+    "index": "qwen1.5-72b-chat",
+    "score": "1219.793458945323",
+    "battle_count": "55.0"
+}, {
+    "index": "command-r-plus",
+    "score": "1214.959565554413",
+    "battle_count": "97.0"
+}, {
+    "index": "mistral-next",
+    "score": "1191.8454530030995",
+    "battle_count": "23.0"
+}, {
+    "index": "glm-4-0116",
+    "score": "1189.0080030186969",
+    "battle_count": "10.0"
+}, {
+    "index": "glm-4-0520",
+    "score": "1185.4565249019206",
+    "battle_count": "15.0"
+}, {
+    "index": "reka-core-20240722",
+    "score": "1181.843552384616",
+    "battle_count": "10.0"
+}, {
+    "index": "dbrx-instruct-preview",
+    "score": "1159.7767879383973",
+    "battle_count": "27.0"
+}, {
+    "index": "deepseek-v2-api-0628",
+    "score": "1153.1743265610307",
+    "battle_count": "11.0"
+}, {
+    "index": "mistral-medium",
+    "score": "1152.6917835055401",
+    "battle_count": "48.0"
+}, {
+    "index": "mixtral-8x22b-instruct-v0.1",
+    "score": "1128.0122768781357",
+    "battle_count": "62.0"
+}, {
+    "index": "snowflake-arctic-instruct",
+    "score": "1120.4122775524052",
+    "battle_count": "58.0"
+}, {
+    "index": "llama-2-70b-chat",
+    "score": "1119.0922463542302",
+    "battle_count": "45.0"
+}, {
+    "index": "mixtral-8x7b-instruct-v0.1",
+    "score": "1114.0",
+    "battle_count": "98.0"
+}, {
+    "index": "llama-3-8b-instruct",
+    "score": "1105.476224111957",
+    "battle_count": "137.0"
+}, {
+    "index": "gemma-2-27b-it",
+    "score": "1091.1362213155194",
+    "battle_count": "23.0"
+}, {
+    "index": "mistral-7b-instruct-v0.2",
+    "score": "1090.5239958449015",
+    "battle_count": "26.0"
+}, {
+    "index": "vicuna-13b",
+    "score": "1086.670912167197",
+    "battle_count": "23.0"
+}, {
+    "index": "llama-2-13b-chat",
+    "score": "1073.809845380761",
+    "battle_count": "21.0"
+}, {
+    "index": "llama2-70b-steerlm-chat",
+    "score": "1072.4191985067682",
+    "battle_count": "12.0"
+}, {
+    "index": "vicuna-33b",
+    "score": "1070.4944699773582",
+    "battle_count": "30.0"
+}, {
+    "index": "command-r",
+    "score": "1069.8388565577561",
+    "battle_count": "60.0"
+}, {
+    "index": "mistral-large-2402",
+    "score": "1066.280792321923",
+    "battle_count": "67.0"
+}, {
+    "index": "phi-3-medium-4k-instruct",
+    "score": "1012.5229524346465",
+    "battle_count": "23.0"
+}, {
+    "index": "phi-3-mini-128k-instruct",
+    "score": "968.8257889141377",
+    "battle_count": "22.0"
+}, {
+    "index": "llama-2-7b-chat",
+    "score": "803.9837421576361",
+    "battle_count": "16.0"
+}
+]
