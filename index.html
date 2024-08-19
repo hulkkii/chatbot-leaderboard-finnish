@@ -11,7 +11,7 @@
 
     <div class="container mx-auto p-6">
         <h1 class="text-3xl font-bold text-center mb-8">LLM Leaderboard for Finnish Language (14.08.2024)</h1>
-        
+
         <div class="flex justify-center items-center gap-4 mb-8">
             <div>
                 <label for="battle-count-filter" class="block text-sm font-medium text-gray-700">Minimum Battle Count:</label>
@@ -26,8 +26,28 @@
             </div>
         </div>
 
+        <div class="flex justify-center mb-8">
+            <a href="https://chat.lmsys.org/" target="_blank" class="text-blue-600 underline hover:text-blue-800">Go to arena (battle)</a>
+        </div>
+
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <canvas id="myChart" class="w-full h-64"></canvas>
+            <canvas id="myChart" class="w-full h-96"></canvas>
+        </div>
+
+        <div class="bg-white p-6 mt-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-bold mb-4">Results Table</h2>
+            <table class="min-w-full bg-white">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Index</th>
+                        <th class="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Score</th>
+                        <th class="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Battle Count</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsTable" class="bg-white divide-y divide-gray-200">
+                    <!-- Table rows will be inserted here dynamically -->
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -68,6 +88,21 @@
             });
         }
 
+        function populateTable(filteredData) {
+            const tableBody = document.getElementById('resultsTable');
+            tableBody.innerHTML = ''; // Clear existing rows
+
+            filteredData.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${item.index}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${parseFloat(item.score).toFixed(2)}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${parseFloat(item.battle_count)}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
         function updateChart() {
             const minBattleCount = parseFloat(document.getElementById('battle-count-filter').value);
             const topModels = parseInt(document.getElementById('top-models').value, 10);
@@ -77,6 +112,7 @@
             filteredData = filteredData.slice(0, topModels);
 
             createChart(filteredData);
+            populateTable(filteredData);
         }
 
         function fetchData() {
